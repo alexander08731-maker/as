@@ -31,7 +31,7 @@
             text-transform: uppercase;
             margin-bottom: 2.5rem;
             color: #e4e4e7;
-            padding-left: 0.35em; /* Compensa el espacio final para centrar perfecto */
+            padding-left: 0.35em;
         }
 
         .countdown {
@@ -94,7 +94,6 @@
 
     <script>
         // Fecha objetivo mundial: 1 de enero de 2027 a las 00:00:00 UTC
-        // (Nota: En JavaScript los meses van de 0 a 11, por eso enero es 0)
         const targetDate = Date.UTC(2027, 0, 1, 0, 0, 0);
 
         function updateCountdown() {
